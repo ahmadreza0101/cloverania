@@ -1,0 +1,51 @@
+.card-feature {
+    background: var(--gradient-card);
+    border: 1px solid rgba(99, 102, 241, .12);
+
+    backdrop-filter: blur(8px);
+
+    transition:
+        transform .10s ease,
+        box-shadow .10s ease,
+        border-color .10s ease;
+
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, .25);
+}
+
+.card-feature:hover {
+    transform: translateY(-2px);
+    border-color: rgba(96, 165, 250, .4);
+
+
+}
+
+.card-feature .card-title {
+    color: white;
+}
+
+.card-feature .card-text {
+    color: var(--color-text-muted);
+}
+
+
+.feature-section {
+    background: linear-gradient(180deg,
+            rgba(10, 15, 30, .45),
+            rgba(20, 25, 45, .8));
+}
+
+.cta-box {
+    background: linear-gradient(135deg,
+            rgba(30, 41, 59, .95),
+            rgba(15, 23, 42, .95));
+
+    border: 1px solid rgba(99, 102, 241, .15);
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, .3);
+}
+
+.text-secondary {
+    color: var(--color-text-muted) !important;
+}
